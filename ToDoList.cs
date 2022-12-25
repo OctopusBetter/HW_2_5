@@ -177,7 +177,7 @@ namespace HW_2_5
                                 Logger.File_Log("INFO: Task " + T_ID + " Deleted");
                             }
                             Menu.Footer();
-                            Console.Write("Press <any> key to continue:");
+                            Console.Write("Press any key to continue:");
                             Console.ReadKey();
 
                         }
@@ -202,7 +202,7 @@ namespace HW_2_5
                             Logger.Console_Log_Error("No Tasks Found");
                         }
                         Menu.Footer();
-                        Console.Write("Press <any> key to continue:");
+                        Console.Write("Press any key to continue:");
                         Console.ReadKey();
                         break;
 
@@ -231,7 +231,7 @@ namespace HW_2_5
                                 Console.WriteLine("No Task Found\n\n");
                             }
                             Menu.Footer();
-                            Console.Write("Press <any> key to continue:");
+                            Console.Write("Press any key to continue:");
                             Console.ReadKey();
                         }
                         catch (Exception)
